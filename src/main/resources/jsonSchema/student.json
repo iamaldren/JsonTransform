@@ -1,0 +1,40 @@
+[
+  {
+    "operation": "remove",
+    "spec": {
+      "studentAge": "",
+      "studentGPA": ""
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "studentId": "ID",
+      "studentName": "Name",
+      "studentAge": "Age",
+      "studentStatus": {
+        "0": {
+          "#FULL-TIME": "Status"
+        },
+        "1": {
+          "#PART-TIME": "Status"
+        }
+      },
+      "studentSection": {
+        "0": {
+          "#BLOCK-SECTION": "Section"
+        },
+        "1": {
+          "#FREE-SECTION": "Section"
+        }
+      },
+      "studentOrganization": "Organization"
+    }
+  },
+  {
+    "operation": "default",
+    "spec": {
+      "School": "Adamson University"
+    }
+  }
+]
